@@ -10,8 +10,11 @@ body {
   font-family: Crimson text, serif;
   font-size: 1.125rem;
   font-weight: normal;
-  margin: rem;
-  padding: 0 1rem;
+  line-height: 1rem;
+  color: #222;
+  background-color: #999;
+  margin: 2rem;
+  padding: 0rem 1rem;
 }
 
 h1 {
@@ -23,11 +26,12 @@ header > p {
 }
 
 artical > p {
-  border: border: 2px 0 0 0 solid #000;
+  border: border: 2px 0px 0px 0px solid #222;
 }
 
 .quote {
   font-size: 1.5rem;
+  color: #555;
   text-align: center;
 }
 
@@ -36,5 +40,5 @@ ol {
 }
 
 ol ~ p {
-   border: 0px 0 2 0 solid #000;
+   border: 0px 0px 2px 0px solid #222;
  }
