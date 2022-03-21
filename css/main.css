@@ -17,7 +17,11 @@ body {
   font-weight: normal;
   line-height: 1.3rem;
   color: #222;
-  margin: 1em;
+  margin: 3rem;
+}
+
+article header {
+  margin-bottom: 1em;
 }
 
 article h1 {
@@ -26,20 +30,20 @@ article h1 {
 
 article header p {
   font-style: italic;
-  color: #555;
 }
 
-article header {
-  border-bottom: 2px;
+article p {
+  border-top: 2px;
 }
 
 blockquote {
   text-align: center;
+  color: #999;
+  font-size: 1.5rem;
 }
 
 .quote {
-  font-size: 1.5rem;
-  color: #999;
+  color: #555;
 }
 
 article ol {
