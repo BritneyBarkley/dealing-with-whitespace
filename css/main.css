@@ -9,7 +9,6 @@ html {
 article {
   padding-left: 1rem;
   padding-right: 1rem;
-  border-top: 2px solid #222;
   border-bottom: 2px solid #222;
 }
 
@@ -24,6 +23,7 @@ body {
 
 article header {
   margin-bottom: auto;
+  border-bottom: 2px solid #222;
 }
 
 article h1 {
