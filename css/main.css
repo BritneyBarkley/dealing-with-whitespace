@@ -17,7 +17,7 @@ body {
   font-weight: normal;
   line-height: 1.3rem;
   color: #222;
-  margin: 10px;
+  margin: inherit;
 }
 
 article header {
@@ -33,7 +33,7 @@ article header p {
 }
 
 article p {
-  border-top: 2px;
+  border-top: 2px solid #222;
 }
 
 blockquote {
@@ -58,5 +58,5 @@ article ol {
 }
 
 ol ~ p {
-  border-bottom: 2px;
+  border-bottom: 2px solid #222;
 }
